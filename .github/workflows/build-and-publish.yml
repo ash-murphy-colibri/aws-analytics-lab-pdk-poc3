@@ -34,13 +34,13 @@ jobs:
           python-version: '3.9'
           cache: 'poetry'
       - name: Install dependencies
-        working-directory: steps.get-path.outputs.project_path
+        working-directory: ${{ steps.get-path.outputs.project_path }}
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           poetry install
         shell: bash
       - name: Build
-        working-directory: steps.get-path.outputs.project_path
+        working-directory: ${{ steps.get-path.outputs.project_path }}
         id: build
         run: poetry build
 #      - name: Publish
