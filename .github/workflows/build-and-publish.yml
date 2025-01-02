@@ -26,6 +26,8 @@ jobs:
         run: |
           project_name=$(echo $(echo '${{ github.ref_name }}' | cut -d '@' -f 1))
           echo "project_path=python/$project_name" >> $GITHUB_OUTPUT
+      - name: Install poetry
+        run: pipx install poetry
       - uses: actions/setup-python@v5
         id: cache
         with:
