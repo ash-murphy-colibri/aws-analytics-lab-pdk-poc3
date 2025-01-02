@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.3...projC@v0.2.4) (2025-01-02)
+
+
+### Bug Fixes
+
+* fix prioect name command ([7d153b4](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/7d153b4965c021fc245345264106f04f6a9ba0a3))
+
 ## [0.2.3](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.2...projC@v0.2.3) (2025-01-02)
 
 
