@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.8](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.7...projC@v0.2.8) (2025-01-02)
+
+
+### Bug Fixes
+
+* expand project_path properly ([05b3752](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/05b37527a72d3e97ddbc4aa007b4f83acfb7f2b4))
+
 ## [0.2.7](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.6...projC@v0.2.7) (2025-01-02)
 
 
