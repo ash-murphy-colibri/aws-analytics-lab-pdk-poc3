@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC-v0.1.0...projC@v0.2.0) (2025-01-02)
+
+
+### Features
+
+* upgrade projc ([dc4b74f](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/dc4b74f97d5af99bce9314117445a253dd09ac51))
+
 ## [0.1.0](https://github.com/McK-Internal/aws-analytics-lab-pdk-poc2/compare/projC-v0.1.0...projC@v0.1.0) (2024-12-24)
 
 
