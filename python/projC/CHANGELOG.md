@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.0...projC@v0.2.1) (2025-01-02)
+
+
+### Bug Fixes
+
+* fix tags regex ([8cbee58](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/8cbee58f9b2a33f7b926493e6e24d78a3a046624))
+
 ## [0.2.0](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC-v0.1.0...projC@v0.2.0) (2025-01-02)
 
 
