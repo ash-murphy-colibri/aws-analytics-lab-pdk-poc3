@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.1...projC@v0.2.2) (2025-01-02)
+
+
+### Bug Fixes
+
+* fix continure on error to print event ([4c9e128](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/4c9e128ac239fcd357951ef3311a498700579493))
+
 ## [0.2.1](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.0...projC@v0.2.1) (2025-01-02)
 
 
