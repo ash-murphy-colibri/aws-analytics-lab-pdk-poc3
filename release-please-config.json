@@ -1,0 +1,20 @@
+{
+  "include-component-in-tag": true,
+  "include-v-in-tag": true,
+  "tag-separator": "@",
+  "separate-pull-requests": true,
+  "packages": {
+    "python/projC": {
+      "package-name": "projC",
+      "release-type": "python",
+      "extra-files": [
+        {
+          "type": "toml",
+          "path": "python/projC/pyproject.toml",
+          "jsonpath": "$.tool.poetry.version"
+        }
+      ]
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}

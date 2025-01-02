@@ -1,0 +1,32 @@
+on:
+  push:
+    branches:
+      - main
+
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      projA--tag_name: ${{ steps.release.outputs.projA--tag_name}}
+      projA--release_created: ${{ steps.release.outputs.projA--release_created }}
+      projB--tag_name: ${{ steps.release.outputs.projB--tag_name }}
+      projB--release_created: ${{ steps.release.outputs.projB--release_created }}
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          token: ${{ secrets.GA_PAT }}
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+      - name: Print release outputs for debugging
+        continue-on-error: true
+        run: |
+          echo "Release outputs:"
+          echo "${{ toJson(steps.release.outputs) }}"
