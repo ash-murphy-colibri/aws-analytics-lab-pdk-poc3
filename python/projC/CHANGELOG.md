@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.2...projC@v0.2.3) (2025-01-02)
+
+
+### Bug Fixes
+
+* fix command not found error when getting project name ([725ffe2](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/725ffe244c9a0fd3844da50e7f3c86c7d86b4dec))
+
 ## [0.2.2](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.1...projC@v0.2.2) (2025-01-02)
 
 
