@@ -24,9 +24,8 @@ jobs:
       - name: Get project path
         id: get-path
         run: |
-          project_name=$(echo '${{ github.ref_name }}' | cut -d '@' -f 1)
-          "project_name=$project_name" >> $GITHUB_OUTPUT
-          "project_path=python/$project_name" >> $GITHUB_OUTPUT
+          project_name=$(echo "$(echo '${{ github.ref_name }}' | cut -d '@' -f 1)"
+          echo "project_path=python/$project_name" >> $GITHUB_OUTPUT
       - uses: actions/setup-python@v5
         id: cache
         with:
