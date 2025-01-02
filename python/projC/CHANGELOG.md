@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.7](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.6...projC@v0.2.7) (2025-01-02)
+
+
+### Bug Fixes
+
+* install poetry ([187a10b](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/commit/187a10ba4c08f5e78d102a360725d5d9ae98bdf8))
+
 ## [0.2.6](https://github.com/ash-murphy-colibri/aws-analytics-lab-pdk-poc3/compare/projC@v0.2.5...projC@v0.2.6) (2025-01-02)
 
 
